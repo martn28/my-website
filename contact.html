@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Свържете се с нас - Vinyl Библиотека. Пишете ни или ни посетете!">
+    <title>Контакти - Vinyl Библиотека</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="contact-page">
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="about.html">За нас</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="news.html">Новини</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+                <li><a href="cart.html">Количка</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h1>Контакти</h1>
+            <p>Свържете се с нас или ни посетете в магазина ни!</p>
+            <div class="contact-details">
+                <p><strong>Адрес:</strong> ул. Музикална 12, София</p>
+                <p><strong>Телефон:</strong> +359 888 123 456</p>
+                <p><strong>Имейл:</strong> info@vinylbiblioteka.bg</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Изпратете ни съобщение</h2>
+            <form action="mailto:info@vinylbiblioteka.bg" method="post" enctype="text/plain">
+                <label for="name">Име:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Имейл:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Съобщение:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Изпрати</button>
+            </form>
+        </section>
+
+        <section class="map">
+            <h2>Намерете ни</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.1234!2d23.3218684!3d42.6977082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa843123123123!2sSofia%20City%20Center!5e0!3m2!1sen!2sbg!4v1600000000000" 
+                width="100%" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <footer>
+            <p>© 2025 Vinyl Библиотека</p>
+            <p>Следвай ни в социалните мрежи: <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+        </footer>
+    </footer>
+</body>
+</html>

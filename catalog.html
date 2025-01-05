@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Каталог с винилови плочи в Vinyl Библиотека. Открийте класики и модерни издания.">
+    <title>Каталог - Vinyl Библиотека</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="catalog-page">
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="about.html">За нас</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="news.html">Новини</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+                <li><a href="cart.html">Количка</a></li>
+            </ul>
+        </nav>
+        <div id="cart-counter">Количка: 0</div>
+    </header>
+
+    <main>
+        <section class="catalog">
+            <h1>Каталог</h1>
+            <p>Разгледайте нашата колекция от винилови плочи.</p>
+            <h2>Най - продавани плочи</h2>
+            <div class="catalog-items">
+                <div class="item">
+                    <img src="81Z4-Lko4KL._UF1000,1000_QL80_.jpg" alt="Албум 1">
+                    <h3>The #1 Classical Album</h3>
+                    <p>Цена: 30 лв.</p>
+                    <button onclick="addToCart('The #1 Classical Album', 30)">Купи</button>
+                </div>
+                <div class="item">
+                    <img src="50-greatest-hip-hop-debut-albums-of-all-time-asap-rocky.jpg" alt="Албум 2">
+                    <h3>LONG.LIVE.A$AP</h3>
+                    <p>Цена: 40 лв.</p>
+                    <button onclick="addToCart('LONG.LIVE.A$AP', 40)">Купи</button>
+                </div>
+                <div class="item">
+                    <img src="0x1900-000000-80-0-0 (1).jpg" alt="Албум 3">
+                    <h3>The Reiki Goddess</h3>
+                    <p>Цена: 35 лв.</p>
+                    <button onclick="addToCart('The Reiki Goddess', 35)">Купи</button>
+
+                </div>
+            </div>
+            <section id="music-styles">
+                <h2>Изберете стил музика</h2>
+                <ul>                                        
+                    <li><a href="classical_catalog.html">Класическа музика</a></li>
+                    <li><a href="rap_catalog.html">Рап музика</a></li>
+                    <li><a href="spiritual_catalog.html">Душевна музика</a></li>
+                </ul>
+            </section>
+            
+        </section>
+    </main>
+
+    <footer>
+        <footer>
+            <p>© 2025 Vinyl Библиотека</p>
+            <p>Следвай ни в социалните мрежи: <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+        </footer>
+    </footer>
+</body>
+</html>
+<script src="java.js"></script>
